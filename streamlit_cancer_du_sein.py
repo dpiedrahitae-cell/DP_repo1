@@ -406,7 +406,7 @@ if page == pages [9] :
 
     st.markdown("""
         <div class='font20'>
-        • Les modèles de <b>Cox</b> montrent une bonne discrimination (C-index ≈ 0,68), 
+        • Les modèles de <b>Cox</b> montrent une bonne discrimination (C-index ~0.72), 
         améliorée par l’ajout de variables cliniques et thérapeutiques.<br><br>
 
         • Les facteurs pronostiques majeurs sont : <b>âge</b>, <b>taille tumorale</b>, 
@@ -478,3 +478,4 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
