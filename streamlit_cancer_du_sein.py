@@ -110,22 +110,17 @@ if page == pages [2] :
     </div>
     """, unsafe_allow_html=True)
 
-     st.markdown(
-    """
-    <p style="text-align: justify; font-size:18px;">
+    st.markdown("""
+    <div style="text-align: justify; font-size:18px;">
     Une analyse de survie spécifique globale et au cancer a été réalisée. L'estimateur de Kaplan-Meier est couramment utilisé pour estimer cette fonction en présence de censure. Le modèle de Cox à risques proportionnels est utilisé pour estimer l'impact de plusieurs variables sur la survie. Ce modèle suppose que les risques sont proportionnels dans le temps. 
-             </p>
-    """,
-    unsafe_allow_html=True
-)
+        </p>
+    """, unsafe_allow_html=True)
     st.markdown(
     """
     <p style="text-align: justify; font-size:18px;">
     L'indice de concordance de Harrell (c-index) a été utilisé pour évaluer la performance des modèles de survie. 
              </p>
-    """,
-    unsafe_allow_html=True
-)
+    """, unsafe_allow_html=True)
 
     st.header("Modelisation COX")
 
@@ -480,6 +475,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
