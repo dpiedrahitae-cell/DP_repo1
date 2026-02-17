@@ -379,11 +379,13 @@ if page == pages [8] :
     st.image(BASE_DIR /"GRAD-CAM_ResNet18.png")
     st.markdown("""
     <div style="font-size:18px;">
-    <ul>  • La carte thermique montre que le modéle apprend des caractéristiques diagnostiques pertinentes<ul>
-    <ul> •  Les zones chaude (rouge/jaune) correspondent à des régions
-    ayant la plus forte influence positive sur la prédiction.
-    <ul> • Pour la classe Maligne : Le modèle identifie correctement les zones de rupture tissulaire.             
-     </div>
+    <ul>  • Le Grad-CAM utilise les gradients de la dernière couche convolutive pour produire une carte thermique.<ul>
+    <ul> •  Pour la classe Maligne, on remarque que le modèle s'active sur les zones de prolifération anarchique.<ul>
+    <ul> •  Cela valide que notre modele n'apprend pas par hasard, mais se base sur des caractéristiques biologiques réelles.<ul>
+    <ul> •  À l'inverse, pour la classe Bénigne, il identifie des structures organisées.<ul>
+    <ul> •  Cela prouve que le ResNet18 a réussi à extraire des biomarqueurs visuels cohérents avec la littérature médicale.<ul>
+     </div> 
+     
     """, unsafe_allow_html=True)
  
 
@@ -475,6 +477,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
