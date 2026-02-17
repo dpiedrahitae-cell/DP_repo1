@@ -357,16 +357,19 @@ if page == pages [7] :
     <li>Précision (0,97) → Les faux positifs sont rares 6 cas sur 120 (0,05%).</li>
     <li>Classe Malin</li>          
     <li>Rappel (0,99)  → Le modèle reconnaît maintenant 280 cas bénins sur 283.</li>
-    <li>F1-Score (0,98) → La capacité du modèle à classer les images est très satisfaisante.             
+    <li>F1-Score (0,98) → La capacité du modèle à classer les images est très satisfaisante. 
+     <li>La matrice de confusion montre que le modèle a un taux de Faux Négatifs très faible (0,01%).
     </ul>
     </div>
+   
     """, unsafe_allow_html=True)
+    
     st.image(BASE_DIR /"MC_ResNet.png") 
 
     st.markdown(
     """
     <p style="text-align: justify; font-size:18px;">
-    L’AUC de 0.9976 : montre que le modèle  distingue les deux classes avec certitude. 
+     Grace à L’AUC de 0.99 : le modèle démontre une performance remarquable. Plus qu'une simple corrélation, il assure une distinction nette et précise entre tissus sains et malins, minimisant ainsi drastiquement les risques d'erreur de diagnostic. 
     """,
     unsafe_allow_html=True
 )
@@ -475,6 +478,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
