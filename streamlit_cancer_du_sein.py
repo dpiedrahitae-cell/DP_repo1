@@ -465,7 +465,7 @@ if page == pages [11] :
             METABRIC et Breakhist sont très complexes et nécessitent une expertise médicale pour
             être correctement interprétés et validés  
                 
-        •   En ce qui concerne le jeu des données de METABRIC : les données manquauntes, Multicolinéarité / redondance entre variables tumorales.
+        •   En ce qui concerne le jeu des données de METABRIC : les données manquantes, Multicolinéarité / redondance entre variables tumorales.
                 
         •   Pour le dataset BreakHis : les différences entre les résultats selon le type de grossissement , la persistance de faux négatifs. 
                  
@@ -475,6 +475,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
