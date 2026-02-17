@@ -385,7 +385,7 @@ if page == pages [8] :
          </div> 
      
     """, unsafe_allow_html=True)
-    st.write(" ### • Le ResNet18 a réussi à extraire des biomarqueurs visuels cohérents avec la littérature médicale.-")
+    st.write(" ### • Le ResNet18 a réussi à extraire des biomarqueurs visuels cohérents avec la littérature médicale")
 
 if page == pages [9] :
     st.header("Conclusions")
@@ -475,6 +475,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
