@@ -448,18 +448,6 @@ if page == pages[10]:
         </div>
     """, unsafe_allow_html=True)
 
-    st.subheader("La sélection d’images par patient : robustesse clinique")
-    st.markdown("""
-        <div class='font18'>
-        • La validation inter‑patients confirme que le modèle ne se limite pas à reconnaître des 
-        textures propres à une lame.  
-                
-        • Avec <b>91 % de précision</b> sur de nouveaux patients, le ResNet18 identifie des motifs 
-        pathologiques généraux, renforçant son potentiel comme <b>outil d’aide au diagnostic 
-        performant et robuste</b>.
-        </div>
-    """, unsafe_allow_html=True)
-
 if page == pages [11] :
     st.header("Limitations")   
     st.markdown("""
@@ -478,6 +466,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
