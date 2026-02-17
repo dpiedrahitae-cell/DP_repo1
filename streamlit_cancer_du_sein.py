@@ -10,13 +10,6 @@ from PIL import Image
 from pathlib import Path 
 
 
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from lifelines import CoxPHFitter, KaplanMeierFitter
-from lifelines.utils import concordance_index
-from sksurv.util import Surv
-
-
 BASE_DIR = Path(__file__).resolve().parent
 
 
@@ -483,4 +476,5 @@ if page == pages [11] :
     """, unsafe_allow_html=True)
 
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
+
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
