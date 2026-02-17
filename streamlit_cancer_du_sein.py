@@ -112,7 +112,7 @@ if page == pages [2] :
     st.markdown(
     """
     <p style="text-align: justify; font-size:18px;">
-    Une analyse de survie spécifique globale et au cancer a été réalisée. L'estimateur de Kaplan-Meier est couramment utilisé pour estimer cette fonction en présence de censure. Le modèle de Cox à risques proportionnels est utilisé pour estimer l'impact de plusieurs variables sur la survie. Ce modèle suppose que les risques sont proportionnels dans le temps. 
+    L'indice de concordance de Harrell (c-index) a été utilisé pour évaluer la performance des modèles de survie. 
              </p>
     """,
     unsafe_allow_html=True
@@ -478,4 +478,5 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
