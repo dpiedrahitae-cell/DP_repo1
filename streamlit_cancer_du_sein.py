@@ -394,6 +394,10 @@ if page == pages [8] :
 
 if page == pages [9] :
     st.header("Conclusions")
+    st.white("## Ce projet avait pour objectif général d'explorer l'intelligence artificielle afin d'améliorer à la fois le diagnostic histopathologique et le pronostic du cancer du sein , dans le but de mieux aider les professionnels de santé"). 
+
+
+    
     st.subheader("Conclusions – Analyse METABRIC")
 
     st.markdown("""
@@ -408,7 +412,7 @@ if page == pages [9] :
 
     st.markdown("""
         <div class='font20'>
-        • Les modèles de <b>Cox</b> montrent une bonne discrimination (C-index ~0.72), 
+        • Les modèles de <b>Cox</b> montrent une bonne discrimination (C-index ~0.677), 
         améliorée par l’ajout de variables cliniques et thérapeutiques.<br><br>
 
         • Les facteurs pronostiques majeurs sont : <b>âge</b>, <b>taille tumorale</b>, 
@@ -468,6 +472,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil pour améliorer à la fois le Diagnostic et le Pronostic du cancer du sein.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
