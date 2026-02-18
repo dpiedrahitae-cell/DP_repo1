@@ -22,6 +22,8 @@ pages=["Introduction", "Exploration - DataViz", "Modélisation","Resultats", "In
 page=st.sidebar.radio("Aller vers", pages)
 
 if page == pages[0] : 
+    st.write("Ichraf CHERIF, Diana PIEDRAHITA, Deborah RUBSTEIN")
+    
     st.header("Partie 1 -  Prédiction de survie et du risque de récidive (METABRIC)")
     st.write("Le jeu de données METABRIC: contiennent 2509 patientes et 34 variables cliniques et moléculaires")
     st.subheader("Objectifs du projet")
@@ -382,13 +384,13 @@ if page == pages [8] :
     st.image(BASE_DIR /"GRAD-CAM_ResNet18.png")
     st.markdown("""
     <div style="font-size:18px;">
-    <ul>  • Le Grad-CAM utilise les gradients de la dernière couche convolutive pour produire une carte thermique.<ul>
+    <ul> • Le Grad-CAM utilise les gradients de la dernière couche convolutive pour produire une carte thermique.<ul>
     <ul> •  Pour la classe Maligne, on remarque que le modèle s'active sur les zones de prolifération anarchique. Cela valide que notre modele n'apprend pas par hasard, mais se base sur des caractéristiques biologiques réelles.<ul>
     <ul> •  À l'inverse, pour la classe Bénigne, il identifie des structures organisées.<ul> 
+    <ul> •  Le ResNet18 a réussi à extraire des biomarqueurs visuels cohérents avec la littérature médicale.<ul>
          </div> 
      
     """, unsafe_allow_html=True)
-    st.write(" ### • Le ResNet18 a réussi à extraire des biomarqueurs visuels cohérents avec la littérature médicale")
 
 if page == pages [9] :
     st.header("Conclusions")
@@ -466,6 +468,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil d'aide au diagnostic et au suivi des patients.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
