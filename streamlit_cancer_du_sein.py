@@ -465,9 +465,10 @@ if page == pages [11] :
         </div>
     """, unsafe_allow_html=True)
 
-    st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil pour améliorer à la fois le <b>Diagnostic<b> et le <b>Pronostic<b> du cancer du sein.")
+    st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil pour améliorer à la fois le Diagnostic et le Pronostic du cancer du sein.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
