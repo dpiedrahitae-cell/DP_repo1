@@ -452,18 +452,18 @@ if page == pages[10]:
 
         •   <b>Les ResNet18: 
         
-                   <b>- Architecture légère et rapide
-                   <b>- Connexions résiduelles permettant de “sauter” des couches → apprentissage plus stable et plus profond.<b>
+                   <b>Architecture légère et rapide
+                   <b>Connexions résiduelles permettant de “sauter” des couches → apprentissage plus stable et plus profond.<b>
             
          •   <b>Le grossissement influence directement le niveau d’information disponible :<b>
          
-                    <b>- Faible grossissement → architecture globale du tissu.<b>
-                    <b>- Fort grossissement → détails cellulaires et nucléaires.<b>
+                    <b>Faible grossissement → architecture globale du tissu.<b>
+                    <b>Fort grossissement → détails cellulaires et nucléaires.<b>
                     
          •   <b>Configuration la plus performante : <b> 
          
-                    <b>- Grossissement 200×<b>
-                    <b>- Fine‑tuning avec dégel de la couche 4<b>
+                    <b>Grossissement 200×<b>
+                    <b>Fine‑tuning avec dégel de la couche 4<b>
                     
              Meilleur compromis entre richesse des détails et stabilité de l’entraînement<b>
 
@@ -495,6 +495,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil pour améliorer à la fois le Diagnostic et le Pronostic du cancer du sein.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
