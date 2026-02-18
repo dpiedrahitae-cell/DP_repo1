@@ -341,8 +341,8 @@ if page == pages[6]:
     st.badge("Normalisation", color="gray")
 
     st.markdown("<div class='font18'>Optimisation :</div>", unsafe_allow_html=True)
-    st.badge("Analyse par grossisement d'images", icon=":material/check:", color="green")
-    st.badge("fine-tunning", icon=":material/check:", color="green")
+    st.badge("Analyse par grossisement d'images : car la texture d'une tumeur change radicalement selon le zoom utilisé.", icon=":material/check:", color="green")
+    st.badge("fine-tunning : pour adapter le modèle aux spécificités médicales", icon=":material/check:", color="green")
     st.badge("Selection d'images par patient", icon=":material/check:", color="gray")
 
 if page == pages [7] :
@@ -469,7 +469,7 @@ if page == pages [11] :
                 
         •   En ce qui concerne le jeu des données de METABRIC : les données manquantes, Multicolinéarité / redondance entre variables tumorales.
                 
-        •   Pour le dataset BreakHis : les différences entre les résultats selon le type de grossissement , la persistance de faux négatifs. 
+        •   Pour le dataset BreakHis : Jeux de données avec un déséquilibre des classes, les différences entre les résultats selon le type de grossissement , la persistance de faux négatifs. 
                  
         </div>
     """, unsafe_allow_html=True)
@@ -477,6 +477,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil pour améliorer à la fois le Diagnostic et le Pronostic du cancer du sein.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
