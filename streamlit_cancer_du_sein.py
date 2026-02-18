@@ -447,26 +447,26 @@ if page == pages[10]:
     """, unsafe_allow_html=True)
     st.subheader("Principaux résultats")
     st.markdown("""
-        <div class='font18'>
+        <div class='font20'>
         •   <b>Les modèles CNN sont adaptés aux images médicales, grâce à leur capacité à extraire automatiquement des motifs visuels pertinents.<b>
 
         •   <b>Les ResNet18: 
         
             •   Architecture légère et rapide
             •   Connexions résiduelles permettant de “sauter” des couches 
-                         → apprentissage plus stable et plus profond.
+                    → apprentissage plus stable et plus profond.
             
-         •   <b>Le grossissement influence directement le niveau d’information disponible :<b>
+        •   <b>Le grossissement influence directement le niveau d’information disponible :<b>
          
             •   Faible grossissement → architecture globale du tissu.
             •   Fort grossissement → détails cellulaires et nucléaires.
                     
-         •   <b>Configuration la plus performante : <b> 
+        •   <b>Configuration la plus performante : <b> 
          
             •  Grossissement 200×
             •  Fine‑tuning avec dégel de la couche 4
                     
-        •   <b>Meilleur compromis entre richesse des détails et stabilité de l’entraînement<b>
+        •   Meilleur compromis entre richesse des détails et stabilité de l’entraînement<b>
 
              
         •   <b>Le modèle atteint <b>≈ 98 % d’exactitude</b>, différenciant de manière fiable les tissus 
@@ -495,6 +495,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil pour améliorer à la fois le Diagnostic et le Pronostic du cancer du sein.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
