@@ -467,12 +467,11 @@ if page == pages[10]:
                     
         •   <b>Meilleur compromis entre richesse des détails et stabilité de l’entraînement<b>
 
-        •   <b>Performance du modèle :<b>
-       
-        •   Le modèle atteint <b>≈ 98 % d’exactitude</b>, différenciant de manière fiable les tissus 
+             
+        •   <b>Le modèle atteint <b>≈ 98 % d’exactitude</b>, différenciant de manière fiable les tissus 
             bénins et malins.<b> 
                 
-        •  Ensemble, ces résultats montrent que l’intégration du grossissement, des architectures résiduelles et du fine‑tuning permet d’obtenir un modèle performant et adapté à l’analyse histopathologique du cancer du sein.<b>
+        •  <b>Ensemble, ces résultats montrent que l’intégration du grossissement, des architectures résiduelles et du fine‑tuning permet d’obtenir un modèle performant et adapté à l’analyse histopathologique du cancer du sein.<b>
 
         </div>
     """, unsafe_allow_html=True)
@@ -495,6 +494,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil pour améliorer à la fois le Diagnostic et le Pronostic du cancer du sein.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
