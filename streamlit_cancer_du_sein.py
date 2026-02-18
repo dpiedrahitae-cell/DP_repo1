@@ -414,14 +414,17 @@ if page == pages [9] :
 
     st.markdown("""
         <div class='font20'>
-        • Les modèles de <b>Cox</b> montrent une bonne discrimination (C-index ~0.677), 
+        • Les modèles de <b>Cox</b> montrent une bonne discrimination (C-index ≈ 0.677), 
         améliorée par l’ajout de variables cliniques et thérapeutiques.<br><br>
+        
+        • La variable cible: la survie globale (Overall Survival, OS) est un indicateur clair,<br>
+           <b> robuste, cliniquement pertinent et cohérent avec une prédiction centrée patient.<br>
 
         • Les facteurs pronostiques majeurs sont : <b>âge</b>, <b>taille tumorale</b>, 
         <b>atteinte ganglionnaire</b>, <b>grade</b>, <b>HER2+</b> et <b>chimiothérapie</b>.<br>
                 
         •Les facteurs protecteurs incluent : <b>récepteurs hormonaux positifs</b>, 
-        <b>hormonothérapie</b> et <b>radiothérapie</b>.<br><br>
+        <b>hormonothérapie</b> et <b>radiothérapie</b>.<br>
 
         • Les <b>Random Survival Forest</b> capturent des non‑linéarités et améliorent légèrement 
         certaines performances. 
@@ -474,6 +477,7 @@ if page == pages [11] :
     st.write("### Les modèles proposés doivent impérativement être utilisés par du personnel médical qualifié et constituent un outil pour améliorer à la fois le Diagnostic et le Pronostic du cancer du sein.")
 
     st.write("### La validation humaine est la garantie finale  contre les erreurs résiduelles de chaque modèle.")
+
 
 
 
